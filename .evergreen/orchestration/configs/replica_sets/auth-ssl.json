@@ -6,7 +6,7 @@
   "members": [
     {
       "procParams": {
-        "ipv6": true,
+        "ipv6": false,
         "bind_ip": "127.0.0.1,::1",
         "oplogSize": 500,
         "port": 27017
@@ -20,7 +20,7 @@
     },
     {
       "procParams": {
-        "ipv6": true,
+        "ipv6": false,
         "bind_ip": "127.0.0.1,::1",
         "oplogSize": 500,
         "port": 27018
@@ -34,7 +34,7 @@
     },
     {
       "procParams": {
-        "ipv6": true,
+        "ipv6": false,
         "bind_ip": "127.0.0.1,::1",
         "port": 27019
       },

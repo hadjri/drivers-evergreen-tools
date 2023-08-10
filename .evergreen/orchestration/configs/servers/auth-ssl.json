@@ -4,7 +4,7 @@
     "login": "bob",
     "password": "pwd123",
     "procParams": {
-        "ipv6": true,
+        "ipv6": false,
         "bind_ip": "127.0.0.1,::1",
         "logappend": true,
         "port": 27017
