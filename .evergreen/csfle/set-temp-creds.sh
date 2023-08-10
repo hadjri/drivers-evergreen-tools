@@ -34,6 +34,7 @@ EOF
 }
 
 PYTHON=${PYTHON:-python}
+ls /usr/lib/python2.7/site-packages
 CREDS=$(get_creds)
 
 export CSFLE_AWS_TEMP_ACCESS_KEY_ID=$(echo $CREDS | awk '{print $1}')
